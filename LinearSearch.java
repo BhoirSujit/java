@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import javax.security.sasl.SaslException;
-import javax.sound.sampled.SourceDataLine;
-import javax.xml.transform.Source;
-
 public class LinearSearch {
 
     public static Scanner sc;
