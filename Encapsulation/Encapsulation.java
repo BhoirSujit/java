@@ -1,3 +1,18 @@
+
+public class Encapsulation
+{
+    public static void main(String... args)
+    {
+        Data data = new Data();
+        data.setName("sujit");
+        data.setAge(18);
+
+        System.out.println("Name : " + data.getName());
+        System.out.println("Age : "+ data.getAge());
+    }
+}
+
+
 class Data
 {
     private String name;
@@ -24,15 +39,3 @@ class Data
     }
 }
 
-class Main
-{
-    public static void main(String... args)
-    {
-        Data data = new Data();
-        data.setName("sujit");
-        data.setAge(18);
-
-        System.out.println("Name : " + data.getName());
-        System.out.println("Age : "+ data.getAge());
-    }
-}
